@@ -1,0 +1,13 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: NACOS-ORDER-cONSUMER
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+server-url:
+    nacos-user-service: http://NACOS-PAYMENT-PRIVIDER
+
+
